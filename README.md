@@ -29,7 +29,7 @@
 <div align="justify">
   <p>
     
-* `Why C++?:` because is powerfull, perhaps the most (I still like Java, as well).
+* `Why C++?:` std library is actually powerful, perhaps the most (I still like Java, as well).
 * `Why this repo?:` to provide an example of a coded solution to a real engineering problem.
 * `Ok, and what else?:` it's also an excellent hands-on opportunity to get to work on modern std library.
 
@@ -49,11 +49,18 @@
 
 * Heavy implementation of lambda functions (by overloaded constructors).
 * Standard template library features up to C++20.
-* Usage of the 4 major Object Oriented principles.
+* Usage of the 4 major Object-Oriented principles.
 * Improved mathematical curves definition using cubic spline interpolation through the easy-to-use [cxx-spline header-only library for modern C++][cxx-spline-url].
+
+###  Plotting output sample (with fully editable properties)
+
+<div align="justify"> 
+  <!-- <img align="right" src="https://user-images.githubusercontent.com/53323058/230650942-4c2e0ad4-2d52-46fe-aa67-8860c642e5f6.png" width="500"> -->
+<img align="right" src="https://github.com/criogenox/B_ECC-Cpp-version_plot-capabilities_noGUI/assets/53323058/20fb6e2e-8338-4c56-8f62-7a1f6941fb8b.png">
   
 </div>
 
+<!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
