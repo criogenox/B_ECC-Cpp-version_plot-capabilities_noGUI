@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <div align="center">
   <a align="center">
-    <img src="https://github.com/criogenox/B_ECC-Cpp-version_plot-capabilities_noGUI/assets/53323058/74460a03-4c90-41b3-a3d2-c22600eaaf23.png" alt="Logo" width="500">
+    <img src="https://github.com/criogenox/B_ECC-Cpp-version_plot-capabilities_noGUI/assets/53323058/ad59ea63-6435-4b13-8efb-74729541e4ef.png" alt="Logo" width="500">
   </a>
   <h3 align="center">Railway applications &#x300A; B &#x300B;</h3>
   <p align="center">
@@ -42,8 +42,8 @@
 ## Built With
 
 <div style="display: flex; flex-direction: column; align=center">
-    <img class="img"src="https://github.com/criogenox/B_ECC-Cpp-version_plot-capabilities_noGUI/assets/53323058/5f5403e5-60c9-4004-8cac-8539197064b8.png" alt="Logo" width="120" height="120"/>
-    <img class="img"src="https://github.com/criogenox/B_ECC-Cpp-version_plot-capabilities_noGUI/assets/53323058/1998e4d7-77bb-4f3f-b5e2-08b2a041b207.png" alt="Logo" width="120" height="120"/>
+    <img class="img"src="https://github.com/criogenox/B_ECC-Cpp-version_plot-capabilities_noGUI/assets/53323058/476b6682-674f-45e5-ae53-3dfbd75cd5a9.png" alt="Logo" width="120" height="120"/>
+    <img class="img"src="https://github.com/criogenox/B_ECC-Cpp-version_plot-capabilities_noGUI/assets/53323058/7f7c66db-97e3-49a1-92d9-df41500b54ae.png" alt="Logo" width="120" height="120"/>
 
 ### Additional info
 
