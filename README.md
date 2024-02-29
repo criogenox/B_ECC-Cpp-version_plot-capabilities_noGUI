@@ -29,7 +29,7 @@
 <div align="justify">
   <p>
     
-* `Why C++?:` because is powerfull, perhaps the most (I still like Java, as well).
+* `Why C++?:` std library is actually powerful, perhaps the most (I still like Java, as well).
 * `Why this repo?:` to provide an example of a coded solution to a real engineering problem.
 * `Ok, and what else?:` it's also an excellent hands-on opportunity to get to work on modern std library.
 
@@ -49,7 +49,7 @@
 
 * Heavy implementation of lambda functions (by overloaded constructors).
 * Standard template library features up to C++20.
-* Usage of the 4 major Object Oriented principles.
+* Usage of the 4 major Object-Oriented principles.
 * Improved mathematical curves definition using cubic spline interpolation through the easy-to-use [cxx-spline header-only library for modern C++][cxx-spline-url].
 
 ###  Plotting output sample (with fully editable properties)
