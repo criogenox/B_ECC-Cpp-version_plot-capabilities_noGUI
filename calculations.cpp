@@ -50,10 +50,10 @@ public:
           s(s) {
     }
 
-    vector<double> psic(const long imin, const long imax) {
+    vector<double> &psic(const long imin, const long imax) {
         transform(cbegin(s) + imin, cbegin(s) + imax,
                   back_insert_iterator(psi), move(psif));
-        return move(psi);
+        return psi;
     }
 
 private:
@@ -68,12 +68,12 @@ public:
           psi(psi) {
     }
 
-    vector<double> xplotc() {
+    vector<double> &xplotc() {
         adjacent_difference(cbegin(psi), cend(psi), back_insert_iterator(psisum), plus<>{});
         transform(cbegin(psisum), cend(psisum), back_insert_iterator(x), move(xf));
         replace(begin(x), begin(x) + 1, x[0], 0.0);
         partial_sum(cbegin(x), cend(x), std::back_inserter(xplot));
-        return move(xplot);
+        return xplot;
     }
 
 private:
@@ -88,10 +88,10 @@ public:
           lambda(lambda) {
     }
 
-    vector<double> angc() {
+    vector<double> &angc() {
         transform(cbegin(lambda), cend(lambda),
                   back_inserter(ang), move(angf));
-        return move(ang);
+        return ang;
     }
 
 private:
@@ -117,7 +117,6 @@ public:
             Xplot xploto{dy, psi};
             auto xplot = xploto.xplotc();
 
-            // lambda(i)=2*xplot{i}(end);
             lambda.push_back(2 * xplot.back());
         }
         Ang ango{e, r0, lambda};
