@@ -13,10 +13,10 @@ namespace plt = matplotlibcpp;
 
 int main() {
     //#####################################################
-    string file = "../data/dr_ce_E7.dat";
+    string file = "../data/dr_ce_E8.dat";
     Read dat{file};
     auto r = dat.get();
-    string leg = "Asymmetric Case: E7";
+    string leg = "Asymmetric Case - E8";
     // #***************************************************
     // type=c; % (-1) asymmetric case - 5 / 6 / 7 / 8 / 9
     //         %  (1)  symmetric case - 1 / 2 / 3 / 4
@@ -28,7 +28,7 @@ int main() {
     // ## yii=(-6.8:0.1:6.7); % 7                  || n=136
     // ## yii=(-7.1:0.1:7.0); % 8                  || n=142
     // #***************************************************
-    constexpr double min = -6.8, max = 6.7, dy = 0.1;
+    constexpr double min = -7.1, max = 7.0, dy = 0.1;
     constexpr int c{-1};
     Linspace lino{min, max, dy};
     auto yii = lino.linspacec();

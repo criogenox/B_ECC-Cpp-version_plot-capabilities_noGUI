@@ -17,8 +17,8 @@ public:
 
     void plotc() const {
         //##############################################################
-        // # Set the size of output image to 1200x780 pixels
-        // plt::figure_size(1200, 780);
+        // # Set the size of output image to 1366x768 pixels
+        plt::figure_size(1366, 768);
         // -------------------------------------------------------------
         // # Plot line from given x and y data.
         // # Color is selected automatically o manually (red asterics).
@@ -39,11 +39,13 @@ public:
         plt::xlabel("Lateral displacement [mm]");
         plt::ylabel("Nominal Equivalent conicity [tan(λ)]");
         // -------------------------------------------------------------
-        // # Save the image (file format is determined by the extension)
-        // plt::save("./plot.png");
-        // -------------------------------------------------------------
         // # Enable grid reference lines
         plt::grid(true);
+        // -------------------------------------------------------------
+        // # Save the image (file format is determined by the extension)
+        const string extension = ".png";
+        const string figurename = "./" + leg + extension;
+        plt::save(figurename);
         // -------------------------------------------------------------
         plt::show();
         //##############################################################
