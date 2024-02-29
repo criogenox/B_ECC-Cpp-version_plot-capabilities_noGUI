@@ -51,15 +51,12 @@
 * Standard template library features up to C++20.
 * Usage of the 4 major Object Oriented principles.
 * Improved mathematical curves definition using cubic spline interpolation through the easy-to-use [cxx-spline header-only library for modern C++][cxx-spline-url].
-  
-</div>
 
-## Plotting output sample
+###  Plotting output sample (with properties full editable)
 
 <div align="justify"> 
   <!-- <img align="right" src="https://user-images.githubusercontent.com/53323058/230650942-4c2e0ad4-2d52-46fe-aa67-8860c642e5f6.png" width="500"> -->
 <img align="right" src="https://github.com/criogenox/B_ECC-Cpp-version_plot-capabilities_noGUI/assets/53323058/20fb6e2e-8338-4c56-8f62-7a1f6941fb8b.png">
-
   
 </div>
 
