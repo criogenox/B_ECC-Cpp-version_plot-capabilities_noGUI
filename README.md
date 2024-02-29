@@ -54,6 +54,14 @@
   
 </div>
 
+## Plotting output sample
+
+<div align="justify"> 
+  <!-- <img align="right" src="https://user-images.githubusercontent.com/53323058/230650942-4c2e0ad4-2d52-46fe-aa67-8860c642e5f6.png" width="500"> -->
+<img align="right" src="https://github.com/criogenox/B_ECC-Cpp-version_plot-capabilities_noGUI/assets/53323058/20fb6e2e-8338-4c56-8f62-7a1f6941fb8b.png" width="500">
+     
+</div>
+
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
