@@ -43,6 +43,7 @@
 
 <div style="display: flex; flex-direction: column; align=center">
     <img class="img"src="https://github.com/criogenox/B_ECC-Cpp-version_plot-capabilities_noGUI/assets/53323058/476b6682-674f-45e5-ae53-3dfbd75cd5a9.png" alt="Logo" width="120" height="120"/>
+  <img class="img"src=" https://github.com/criogenox/B_ECC-Cpp-version_plot-capabilities_noGUI/assets/53323058/94d02ad3-96c1-4a82-84f2-235b38309a51.png" alt="Logo" width="120" height="110"/>
     <img class="img"src="https://github.com/criogenox/B_ECC-Cpp-version_plot-capabilities_noGUI/assets/53323058/7f7c66db-97e3-49a1-92d9-df41500b54ae.png" alt="Logo" width="120" height="120"/>
 
 ### Additional info
