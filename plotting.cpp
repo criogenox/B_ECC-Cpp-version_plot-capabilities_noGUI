@@ -16,6 +16,7 @@ public:
     }
 
     void plotc() const {
+        //*******************  Plotting properties  ********************
         //##############################################################
         // # Set the size of output image to 1366x768 pixels
         plt::figure_size(1366, 768);
