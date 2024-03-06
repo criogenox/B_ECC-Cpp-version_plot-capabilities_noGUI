@@ -43,9 +43,9 @@ public:
         plt::grid(true);
         // -------------------------------------------------------------
         // # Save the image (file format is determined by the extension)
-        const string extension = ".png";
-        const string figurename = "./" + leg + extension;
-        plt::save(figurename);
+        string fig_name = "./.png";
+        fig_name.insert(2,leg);
+        plt::save(fig_name);
         // -------------------------------------------------------------
         plt::show();
         //##############################################################
