@@ -1,6 +1,17 @@
 # Prerequisites
 *.d
+
+# Build scripts
 *.txt
+*.txt.user
+*.cmake
+*.json
+makefile
+
+# Folders
+cmake-build-release/
+cmake-build-minisizerel/
+cmake-build-debug/
 
 # Compiled Object files
 *.slo
