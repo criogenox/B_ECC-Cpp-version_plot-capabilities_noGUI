@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 20)
 include_directories(<path-to-python-headers>)  # <== must check!!!
 link_directories(<path-to-libs>)               # <== must check!!!
 
-add_executable(eqconv11 main.cpp
+add_executable(eqconv main.cpp
         util/src/input.cpp
         util/util/matplotlibcpp.h
         prepro/switchcase.cpp
