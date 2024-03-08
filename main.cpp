@@ -1,15 +1,14 @@
 //
 // Created by criogenox 03/2024
 //
-#include "matplotlibcpp.h"
-#include "riemann_sum.cpp"
-#include "switchcase.cpp"
-#include "rzero.cpp"
-#include "plotting.cpp"
+#include "util/util/matplotlibcpp.h"
+#include "prepro/switchcase.cpp"
+#include "prepro/rzero.cpp"
+#include "prepro/riemann_sum.cpp"
+#include "util/src/plotting.cpp"
 
 using std::vector;
 using std::string;
-namespace plt = matplotlibcpp;
 
 int main() {
     //#####################################################

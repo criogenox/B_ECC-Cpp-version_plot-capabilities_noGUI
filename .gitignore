@@ -12,6 +12,7 @@ makefile
 cmake-build-release/
 cmake-build-minisizerel/
 cmake-build-debug/
+resources/
 
 # Compiled Object files
 *.slo
