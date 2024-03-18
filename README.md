@@ -61,6 +61,13 @@
   
 </div>
 
+<!-- ROADMAP -->
+## Roadmap
+
+- [x] Alpha version release
+- [ ] Error events handling implementation
+- [ ] UI design & development 
+
 <!-- LICENSE -->
 ## License
 
