@@ -24,6 +24,8 @@
    </p>
    <div>
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## Personal thoughts
 
 <div align="justify">
@@ -38,7 +40,8 @@
     :muscle: don't let anyone get you down :muscle:
   </p> 
    <div>
-     
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## Built With
 
 <div style="display: flex; flex-direction: column; align=center">
@@ -46,12 +49,16 @@
  <!-- <img class="img"src="https://github.com/criogenox/B_ECC-Cpp-version_plot-capabilities_noGUI/assets/53323058/ec3b4720-a059-4238-b171-01d5befc20ae.png" alt="Logo" width="120" height="112"/> -->
     <img class="img"src="https://github.com/criogenox/B_ECC-Cpp-version_plot-capabilities_noGUI/assets/53323058/7f7c66db-97e3-49a1-92d9-df41500b54ae.png" alt="Logo" width="120" height="120"/>
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ### Additional info
 
 * Heavy implementation of lambda functions (by overloaded constructors).
 * Standard template library features up to C++20.
 * Usage of the 4 major Object-Oriented principles.
 * Improved mathematical curves definition using cubic spline interpolation through the easy-to-use [cxx-spline header-only library for modern C++][cxx-spline-url].
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ###  Plotting output sample (with fully editable properties)
 
@@ -61,6 +68,8 @@
 <p>&nbsp;</p>
 </div>
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 <!-- ROADMAP -->
 ## Roadmap
 
@@ -68,10 +77,14 @@
 - [ ] Error events handling implementation
 - [ ] UI design & development 
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
