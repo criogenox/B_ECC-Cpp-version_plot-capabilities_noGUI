@@ -36,7 +36,7 @@ include_directories(${HEADERS_PATH} ${PYHS_PATH})
 link_directories(${PYLIBS_PATH})
 #-----------#-----------#-----------#
 
-add_executable(${TARGET_SRC} main.cpp ${CPPS})      # (0) compile with complete source code
+add_executable(${TARGET_SRC} main/main.cpp ${CPPS})      # (0) compile with complete source code
 target_link_libraries(${TARGET_SRC} python3.10)
 #-----------#-----------#-----------#
 
