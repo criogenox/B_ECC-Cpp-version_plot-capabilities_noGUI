@@ -1,11 +1,11 @@
 //
 // Created by criogenox 03/2024
 //
-#include "headers/matplotlibcpp.h"
-#include "src/prepro/switchcase.cpp"
-#include "src/prepro/rzero.cpp"
-#include "src/prepro/riemann_sum.cpp"
-#include "src/util/plotting.cpp"
+#include "../headers/matplotlibcpp.h"
+#include "../src/prepro/switchcase.cpp"
+#include "../src/prepro/rzero.cpp"
+#include "../src/prepro/riemann_sum.cpp"
+#include "../src/util/plotting.cpp"
 
 using std::vector;
 using std::string;
