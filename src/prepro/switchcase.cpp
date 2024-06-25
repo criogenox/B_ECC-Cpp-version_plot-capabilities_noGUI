@@ -17,11 +17,9 @@ protected:
 
     const vector<vector<double> > &ymmc(vector<vector<double> > &yemm, const vector<double> &s,
                                         const double &step) {
-        Ycmm ycmmo{yemm};
-        const auto yc = ycmmo.ycmmc();
+        const auto yc = Ycmm(yemm).ycmmc();
         //
-        Calc calco{yc, s};
-        const auto eqcon = calco.calcc(r0, e, step);
+        const auto eqcon = Calc(yc, s).calcc(r0, e, step);
         //
         vector<double> yc_plot;
         for (const auto &i: yc) {
@@ -47,28 +45,26 @@ public:
           yii(yii) {
     }
 
-    void switchcasec() {
+    Switchcase &switchcasec() {
         switch (c) {
             case -1: {
                 Asym asymo{s0, yii};
-                asymo.asymc();
-                auto yemm = asymo.get_y();
+                auto yemm = asymo.asymc().get_y();
                 const auto s = asymo.get_s();
                 ymmc(yemm, s, 0.01);
             }
             break;
             //
             case 1: {
-                Sym symo{s0, yii};
                 const unsigned long idxf = size(yii) - 1;
-                symo.symc(1, idxf);
-                auto yemm = symo.get();
+                auto yemm = Sym(s0, yii).symc(1, idxf).get();
                 ymmc(yemm, s0, 0.1);
             }
             break;
             //
             default: assert("you're in big troubles!!!");
         }
+        return *this;
     }
 
     const vector<vector<double> > &get() {

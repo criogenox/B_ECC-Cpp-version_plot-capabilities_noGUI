@@ -42,8 +42,9 @@ public:
           nl((size(yii) % 2 == 0) ? size(yii) / 2 : (size(yii) - 1) / 2) {
     }
 
-    void symc(const int &cas, const unsigned long idxf) {
+    Sym &symc(const int &cas, const unsigned long idxf) {
         sfunction(cas, idxf, nl);
+        return *this;
     }
 
     vector<vector<double> > &get() {

@@ -111,16 +111,13 @@ public:
             const long imin = static_cast<int>(j[3]);
             const long imax = static_cast<int>(j[4]);
 
-            Psi psio{e, r0, j[5], s};
-            auto psi = psio.psic(imin, imax);
+            auto psi = Psi(e, r0, j[5], s).psic(imin, imax);
 
-            Xplot xploto{dy, psi};
-            auto xplot = xploto.xplotc();
+            auto xplot = Xplot(dy, psi).xplotc();
 
             lambda.push_back(2 * xplot.back());
         }
-        Ang ango{e, r0, lambda};
-        const auto ang = ango.angc();
+        const auto ang = Ang(e, r0, lambda).angc();
         return ang;
     }
 

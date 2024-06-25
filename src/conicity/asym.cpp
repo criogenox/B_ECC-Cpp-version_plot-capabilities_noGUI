@@ -83,8 +83,9 @@ public:
         : Matrixa(s0, yii) {
     }
 
-    void asymc() {
+    Asym &asymc() {
         matrixc();
+        return *this;
     }
 
     const vector<vector<double> > &get_y() {

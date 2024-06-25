@@ -1,21 +1,22 @@
 //
 // Created by criogenox 03/2024
 //
-#include "../headers/matplotlibcpp.h"
-#include "../src/prepro/switchcase.cpp"
-#include "../src/prepro/rzero.cpp"
-#include "../src/prepro/riemann_sum.cpp"
-#include "../src/util/plotting.cpp"
+#include <queue>
+
+#include "matplotlibcpp.h"
+#include "prepro/switchcase.cpp"
+#include "prepro/rzero.cpp"
+#include "prepro/riemann_sum.cpp"
+#include "util/plotting.cpp"
 
 using std::vector;
 using std::string;
 
 int main() {
     //#####################################################
-    string file = "data/dr_ce_E8.dat";
-    Read dat{file};
-    auto r = dat.get();
-    string leg = "Asymmetric Case - E8";
+    const string file = "data/dr_ce_E6.dat";
+    auto r = Read(file).get();
+    const string leg = "Asymmetric Case - E6";
     // #***************************************************
     // type=c; % (-1) asymmetric case - 5 / 6 / 7 / 8 / 9
     //         %  (1)  symmetric case - 1 / 2 / 3 / 4
@@ -27,24 +28,19 @@ int main() {
     // ## yii=(-6.8:0.1:6.7); % 7                  || n=136
     // ## yii=(-7.1:0.1:7.0); % 8                  || n=142
     // #***************************************************
-    constexpr double min = -7.1, max = 7.0, dy = 0.1;
+    constexpr double min = -6.9, max = 6.8, dy = 0.1;
     constexpr int c{-1};
-    Linspace lino{min, max, dy};
-    auto yii = lino.linspacec();
+    const auto yii = Linspace(min, max, dy).linspacec();
     //#####################################################
-    Rzero rzeroo{r};
-    auto idxz = rzeroo.rzero();
+    const auto idxz = Rzero(r).rzero();
     //#####################################################
-    Riemman sum{r, static_cast<int>(idxz)};
-    auto s0 = sum.sum();
+    const auto s0 = Riemman(r, static_cast<int>(idxz)).sum();
     //#####################################################
     constexpr double e = 1435.16, r0 = 920;
     Switchcase switchcaseo{e, r0, c, s0, yii};
-    switchcaseo.switchcasec();
-    auto con_eval = switchcaseo.get();
+    const vector<vector<double> > &con_eval = switchcaseo.switchcasec().get();
     //#####################################################
-    Plot ploto{con_eval[0], con_eval[1], leg};
-    ploto.plotc();
+    Plot(con_eval[0], con_eval[1], leg).plotc();
     //#####################################################
     return 0;
 }
