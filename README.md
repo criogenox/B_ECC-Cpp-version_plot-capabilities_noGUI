@@ -11,7 +11,7 @@
   </p>
 </div>
 
-## About the project
+## About the project ## Preliminary Info (_update in progress_)
 
 <div align="justify">
   <p>
@@ -20,8 +20,6 @@
 * `Plot capabilities` enabled by default employing [matplotlib-cpp header-only library][matplotlib-cpp-url].
 * noGUI available (so far) || Qt user interface planned.
 
-  ## Preliminary Info (_...description & update in progress_)
-  
 > For the EN15302 Standard scope & detalied computing processes aspects, please visit the [original JavaFx version][EEC_java-url].
    </p>
    <div>
