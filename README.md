@@ -11,7 +11,7 @@
   </p>
 </div>
 
-## About the project ## Preliminary Info (_update in progress_)
+## About the project (_update in progress_)
 
 <div align="justify">
   <p>
