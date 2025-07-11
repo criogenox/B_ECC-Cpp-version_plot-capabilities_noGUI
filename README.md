@@ -11,7 +11,7 @@
   </p>
 </div>
 
-## About the project (_update in progress_)
+## About the project (_update_: see new [library-version][new-version-url])
 
 <div align="justify">
   <p>
@@ -74,3 +74,4 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [matplotlib-cpp-url]: https://github.com/lava/matplotlib-cpp/tree/master
 [cxx-spline-url]: https://github.com/snsinfu/cxx-spline
 [EEC_java-url]: https://github.com/criogenox/B_Equivalent-Conicity-Calculation_ECC
+[new-version-url]: https://github.com/criogenox/A_WRCC-Cpp-library-version_plot-capabilities
